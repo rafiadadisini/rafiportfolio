@@ -1,5 +1,21 @@
-#menubar {
+.rafi-bg {
   background-color: #0d76ba;
+}
+
+.rafi-color {
+  color: #0d76ba;
+}
+
+.rafi-bg2 {
+  background-color: #e2edf5;
+}
+
+.rafi-bor {
+  border: 1px solid salmon;
+}
+
+.rafi-hov:hover h1 {
+  font-size: 8vh;
 }
 
 #utama {
@@ -14,10 +30,6 @@
 
 .rafiadadisini {
   letter-spacing: 0.3vh;
-}
-
-.menu {
-  background-color: #0d76ba;
 }
 
 .judul-utama h1 {
