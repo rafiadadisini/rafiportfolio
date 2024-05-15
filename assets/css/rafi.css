@@ -6,6 +6,10 @@
   color: #0d76ba;
 }
 
+.rafi-color2 {
+  color: white;
+}
+
 .rafi-bg2 {
   background-color: #e2edf5;
 }
@@ -14,8 +18,20 @@
   border: 1px solid salmon;
 }
 
-.rafi-hov:hover h1 {
+.rafi-hov:hover {
+  cursor: pointer;
+}
+
+.rafi-hov h1 i:hover {
+  color: #ffc516;
   font-size: 8vh;
+  cursor: pointer;
+}
+
+.rafi-hov2:hover {
+  font-weight: bold;
+  color: white;
+  background-color: #ffc516;
 }
 
 #utama {
