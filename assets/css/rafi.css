@@ -60,8 +60,13 @@
   background-color: #e2edf5;
 }
 
+#card-project h5 {
+  color: #0d76ba;
+  cursor: none;
+}
+
 #card-project h5:hover {
-  font-size: larger;
+  color: #ffc516;
 }
 
 #contact {
