@@ -1,0 +1,41 @@
+#menubar {
+  background-color: #0d76ba;
+}
+
+#utama {
+  background-color: #0d76ba;
+}
+
+#nama-profil {
+  font-family: roboto, sans-serif;
+  font-weight: normal;
+  letter-spacing: -0.2vh;
+}
+
+.rafiadadisini {
+  letter-spacing: 0.3vh;
+}
+
+.menu {
+  background-color: #0d76ba;
+}
+
+.judul-utama h1 {
+  font-family: roboto, sans-serif;
+  color: #0d76ba;
+  font-weight: 300;
+  letter-spacing: -0.2vh;
+  text-transform: capitalize;
+}
+
+#project {
+  background-color: #e2edf5;
+}
+
+#card-project h5:hover {
+  font-size: larger;
+}
+
+#contact {
+  background-color: #e2edf5;
+}
