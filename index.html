@@ -43,11 +43,11 @@
     <!--  -->
   </head>
 
-  <body style="height: 3000px">
+  <body>
     <!-- Navbar -->
     <nav class="navbar fixed-top rafi-bg">
       <div class="container">
-        <a class="navbar-brand text-light">
+        <a class="navbar-brand text-light" href="#utama">
           <img
             src="assets/img/new-rafiart-logo-tranparan.png"
             alt="Logo rafiadadisini"
@@ -97,21 +97,41 @@
     </section>
     <!--  -->
     <!-- menu -->
-    <nav class="container-fluid fixed-bottom mb-4">
+    <nav class="container-fluid fixed-bottom mb-sm-5 mb-md-4">
       <div class="container d-flex justify-content-center text-center">
-        <div class="col-md-5 col-sm-10">
-          <div class="btn-group d-inline-flex align-items-center shadow-lg">
-            <a href="#utama" class="btn rafi-bg rafi-color2 rafi-hov2">Home</a>
-            <a href="#about" class="btn rafi-bg rafi-color2 rafi-hov2"
-              >Who Iam?</a
-            >
-            <a href="#project" class="btn rafi-bg rafi-color2 rafi-hov2"
-              >Project</a
-            >
-            <a href="#skill" class="btn rafi-bg rafi-color2 rafi-hov2">Skill</a>
-            <a href="#contact" class="btn rafi-bg rafi-color2 rafi-hov2"
-              >Contact</a
-            >
+        <div class="navbar navbar-expand rounded-5 mb-sm-3 mb-md-5">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse col-md-5 col-sm-10 rounded-3 rafi-bg shadow"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item rafi-color2 rafi-hov2">
+                <a class="nav-link" href="#utama">Home</a>
+              </li>
+              <li class="nav-item rafi-color2 rafi-hov2">
+                <a class="nav-link" href="#about">Who I am?</a>
+              </li>
+              <li class="nav-item rafi-color2 rafi-hov2">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item rafi-color2 rafi-hov2">
+                <a class="nav-link" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item rafi-color2 rafi-hov2">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -323,7 +343,7 @@
           </div>
         </div>
       </div>
-      <div class="rafi-bg2" style="height: 35vh"></div>
+      <div class="rafi-bg2" style="height: 25vh"></div>
     </section>
     <!--  -->
 
@@ -340,4 +360,9 @@
     ></script>
     <!--  -->
   </body>
+  <footer class="container-fluid rafi-bg" style="height: 25vh">
+    <div class="container">
+      <div class="row"></div>
+    </div>
+  </footer>
 </html>
